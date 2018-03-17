@@ -6,10 +6,13 @@ $(document).ready(function(){
 getIt();
 
 frameIt();
+<<<<<<< HEAD
 
 sumbitIt();
 
 pressIt();
+=======
+>>>>>>> 57be55686f73caf20b1b8765f8cb8c1e322b907c
 });
 
 
@@ -21,6 +24,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load',function(){
+<<<<<<< HEAD
     $('img').addClass('tasty');
   });
 }
@@ -37,4 +41,8 @@ function pressIt(){
       alert("G!");
     }
   });
+=======
+    $('img').append(< class ='tasty' src='style.css'/>)
+  })
+>>>>>>> 57be55686f73caf20b1b8765f8cb8c1e322b907c
 }
